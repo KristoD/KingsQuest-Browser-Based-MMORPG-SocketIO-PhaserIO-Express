@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KingsQuest</title>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/phaser.min.js"></script>
+    <script type="text/javascript" src="js/phaser_pathfinding.min.js"></script>
+    <script type="text/javascript" src="js/easystar-0.2.1.min.js"></script>
+    <style>
+    	* {
+            cursor: url('/assets/sprites/hand.png'), default;
+        }
+        #input1 {
+            position: relative;
+            top: -29px;
+            font-size: 15px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="game">
+    </div>
+    <textarea id="input1" maxlength="20" style="resize: none; height: 25px; width: 420px; border: none; background-color: #414141; color: yellow; outline: none; text-shadow: none; text-align: center;"></textarea>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/client.js"></script>
+    <script type="text/javascript" src="js/Player.js"></script>
+    <script type="text/javascript" src="js/Pathfinder.js"></script>
+</body>
+</html>

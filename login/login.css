@@ -1,10 +1,10 @@
 body {
-    background-image: url('https://vignette.wikia.nocookie.net/age-of-chivalry/images/5/50/Wiki-background/revision/latest/scale-to-width-down/1024?cb=20121114105612');
+    background-image: url('../assets/backgrounds/kingsquest.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Cinzel Decorative', cursive !important;
 }
 
 div {

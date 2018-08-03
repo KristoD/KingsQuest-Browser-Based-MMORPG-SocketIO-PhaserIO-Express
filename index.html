@@ -7,20 +7,35 @@
     <script type="text/javascript" src="js/phaser.min.js"></script>
     <script type="text/javascript" src="js/phaser_pathfinding.min.js"></script>
     <script type="text/javascript" src="js/easystar-0.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
     <style>
-    	* {
+    	body {
             cursor: url('/assets/sprites/hand.png'), default;
+            background-image: url('./assets/backgrounds/game-bg.jpg');
+            background-size: cover;
+            font-family: 'Cinzel Decorative', cursive;
+        }
+        canvas {
+            border: 3px solid black;
+            margin: 0 auto 0 auto;
+        }
+        #logo {
+            font-size: 120px;
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
         #input1 {
             position: relative;
             top: -29px;
+            left: 220px;
             font-size: 15px;
             opacity: 0.6;
         }
     </style>
 </head>
 <body>
-
+    <p id="logo">KingsQuest</p>
     <div id="game">
     </div>
     <textarea id="input1" maxlength="20" style="resize: none; height: 25px; width: 420px; border: none; background-color: #414141; color: yellow; outline: none; text-shadow: none; text-align: center;"></textarea>
